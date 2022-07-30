@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 
 body {
@@ -30,6 +30,7 @@ h1 {
 h2 {
   margin-left: 50px;
   margin-top: 15px;
+  margin-bottom: 0px;
 }
 
 nav {
@@ -66,8 +67,68 @@ nav {
   color: purple;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-1,
+.section-2,
+.section-3 {
+  display: flex;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.about,
+.work,
+.contact {
+  width: 50%;
+}
+
+.profile-photo img {
+  width: 50%;
+  margin: 5%;
+  border-radius: 40px;
+}
+
+.profile-photo,
+.projects,
+.contact-links {
+  background: purple;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+}
+
+.links .first-project {
+  background: red;
+  margin: 5px;
+  flex: 2 1 auto;
+}
+
+.links div {
+  background: green;
+  margin: 5px;
+  width: 50px;
+}
+
 p {
-  margin: 20px 20px 20px 75px;
+  margin: 5px 20px 20px 50px;
+}
+
+.contact-links ul li {
+  list-style: none;
 }
 
 footer {
