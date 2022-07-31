@@ -31,12 +31,13 @@ h2 {
   margin-left: 50px;
   margin-top: 15px;
   margin-bottom: 0px;
+  text-decoration: underline;
 }
 
 nav {
   display: flex;
   justify-content: flex-end;
-  background: rgb(42, 99, 42);
+  background: rgb(8, 95, 8);
   padding-bottom: 10px;
   border-bottom: 3px solid black;
 }
@@ -80,13 +81,32 @@ main {
 
 .contact {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
 }
 
+#aboutme,
+#mywork {
+  margin-left: 10%;
+}
+
+#contact {
+  margin-right: 5%;
+}
+
 .about,
-.work,
-.contact {
+.work {
   width: 50%;
+}
+
+.section-1 {
+  margin-bottom: 5%;
+}
+
+.contact {
+  width: 100%;
+  margin-top: 5%;
 }
 
 .profile-photo img {
@@ -119,29 +139,38 @@ main {
   margin: 1% 2%;
   width: 40%;
   height: 25%;
-  /* Adjust height (to auto?) when imgs are in. */
+  /* TODO: Adjust height (to auto?) when imgs are in. */
 }
 
 p {
-  margin: 5px 20px 20px 50px;
+  margin: 5px 35px 20px 50px;
 }
 
-.contact-links ul {
+#contact {
+  margin: 0 auto;
+}
+
+.contact ul {
+  padding-inline-start: 0;
+}
+
+.contact li {
   list-style: none;
+  margin: 35% auto;
+  background: gray;
+  border: 2px solid black;
+  border-radius: 5px;
+  /* box-shadow: 2px 2px 2px black; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10% auto;
+  justify-content: center;
 }
 
-.contact-links li {
-  margin: 20% auto;
-}
-
-.contact-links a {
+.contact a {
   color: rgb(8, 95, 8);
   text-decoration: none;
   font-weight: bold;
+  margin: 5% auto;
+  padding: 10%;
 }
 
 footer {
