@@ -105,22 +105,20 @@ main {
   align-items: center;
 }
 
-.links {
-  display: flex;
+.projects {
   flex-wrap: wrap;
-  width: 75%;
 }
 
-.links .first-project {
+.projects .first-project {
   background: red;
-  margin: 5px;
-  flex: 2 1 auto;
+  width: 84%;
 }
 
-.links div {
+.projects div {
   background: green;
-  margin: 5px;
-  width: 50px;
+  margin: 1% 2%;
+  width: 40%;
+  height: auto;
 }
 
 p {
