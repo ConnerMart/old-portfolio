@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 body {
@@ -8,13 +8,13 @@ body {
   width: 100%;
   margin: 0;
   font-family: "Cairo", sans-serif;
-  background: gray;
+  background: rgb(107, 93, 93);
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  background: blue;
+  background: rgb(8, 95, 8);
 }
 
 h1,
@@ -36,7 +36,7 @@ h2 {
 nav {
   display: flex;
   justify-content: flex-end;
-  background: blue;
+  background: rgb(42, 99, 42);
   padding-bottom: 10px;
   border-bottom: 3px solid black;
 }
@@ -98,7 +98,7 @@ main {
 .profile-photo,
 .projects,
 .contact-links {
-  background: purple;
+  background: rgb(107, 93, 93);
   width: 50%;
   display: flex;
   justify-content: center;
@@ -110,28 +110,43 @@ main {
 }
 
 .projects .first-project {
-  background: red;
+  background: gray;
   width: 84%;
 }
 
 .projects div {
-  background: green;
+  background: darkgray;
   margin: 1% 2%;
   width: 40%;
-  height: auto;
+  height: 25%;
+  /* Adjust height (to auto?) when imgs are in. */
 }
 
 p {
   margin: 5px 20px 20px 50px;
 }
 
-.contact-links ul li {
+.contact-links ul {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% auto;
+}
+
+.contact-links li {
+  margin: 20% auto;
+}
+
+.contact-links a {
+  color: rgb(8, 95, 8);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 footer {
   display: flex;
   justify-content: space-around;
-  background: blue;
+  background: rgb(8, 95, 8);
   border-top: 3px solid black;
 }
