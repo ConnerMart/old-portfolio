@@ -30,7 +30,6 @@ h1 {
 h2 {
   margin-left: 50px;
   margin-top: 15px;
-  margin-bottom: 0px;
   text-decoration: underline;
 }
 
@@ -39,7 +38,7 @@ nav {
   justify-content: flex-end;
   background: rgb(8, 95, 8);
   padding-bottom: 10px;
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid black;
 }
 
 .nav-links {
@@ -95,10 +94,6 @@ main {
   margin-left: 10%;
 }
 
-#contact {
-  margin-right: 5%;
-}
-
 .work {
   width: 50%;
 }
@@ -109,7 +104,7 @@ main {
 
 .contact {
   width: 100%;
-  margin-top: 10%;
+  margin-top: 7.5%;
 }
 
 .profile-photo img {
@@ -159,30 +154,34 @@ p {
 
 .contact ul {
   padding-inline-start: 0;
+  width: 25%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contact li {
   list-style: none;
-  margin: 35% auto;
+  width: 50%;
+  margin: 7.5% 0;
   background: gray;
   border: 2px solid black;
   border-radius: 5px;
-  /* box-shadow: 2px 2px 2px black; */
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .contact a {
   color: rgb(8, 95, 8);
   text-decoration: none;
   font-weight: bold;
-  margin: 5% auto;
-  padding: 10%;
 }
 
 footer {
   display: flex;
   justify-content: space-around;
   background: rgb(8, 95, 8);
-  border-top: 3px solid black;
+  border-top: 2px solid black;
 }
