@@ -88,20 +88,14 @@ main {
   width: 50%;
 }
 
-.section-1 {
-  margin-bottom: 5%;
-}
-
 .contact {
   width: 100%;
-  margin-top: 7.5%;
 }
 
 .profile-photo img {
   width: 25%;
   border-radius: 40px;
   border: 3px solid black;
-  margin-bottom: 5%;
 }
 
 .profile-photo,
@@ -119,6 +113,7 @@ main {
 
 .projects {
   flex-wrap: wrap;
+  padding: 3%;
 }
 
 .projects .first-project {
@@ -166,6 +161,8 @@ p {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  margin-top: 0;
+  margin-bottom: 1%;
 }
 
 .contact li {
@@ -216,9 +213,5 @@ footer {
     margin-top: 0;
   }
 }
-
-/* TODO: Refactor all of this! */
-
-/* TODO: Add media queries. */
 
 /* TODO: Replace filler text. */
