@@ -193,7 +193,7 @@ footer {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 928px) {
   h2 {
     text-align: center;
     margin-left: 0;
