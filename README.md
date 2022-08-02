@@ -9,3 +9,5 @@ The "My Work" section contains images which will link to projects in my portfoli
 ## Responsive Layout
 
 The content changes to a column layout with decreased margins on the text widths below 928px.
+
+<img src="./assets/images/screenshot.png">
